@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="topbar">#049ff1</color>
+    <color name="title">#FFFFFF</color>
+    <color name="pline">#4C4C4C</color>
+    <color name="fragement1">#712704</color>
+    <color name="fragement2">#FF8C05</color>
+    <color name="service_tab_select">#FFFFFF</color>
+    <color name="service_tab_unselect">#4b5b64</color>
+    <color name="secondbar_back">#ffffff</color>
+    <color name="linecolor">#FE9D01</color>
+    <color name="textborder">#049ff1</color>
+    <color name="background">#F0F0F0</color>
+    
+</resources>
