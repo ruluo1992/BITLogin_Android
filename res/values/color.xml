@@ -11,5 +11,7 @@
     <color name="linecolor">#FE9D01</color>
     <color name="textborder">#049ff1</color>
     <color name="background">#F0F0F0</color>
+    <color name="good">#43a102</color>
+    <color name="bad">#e51400</color>
     
 </resources>
