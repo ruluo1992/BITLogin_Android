@@ -13,5 +13,6 @@
     <color name="background">#F0F0F0</color>
     <color name="good">#43a102</color>
     <color name="bad">#e51400</color>
-    
+    <color name="white">#FFFFFF</color>
+    <color name="textcolor">#BEC0C2</color>
 </resources>

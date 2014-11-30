@@ -22,8 +22,10 @@ public final class R {
         public static final int service_tab_select=0x7f040005;
         public static final int service_tab_unselect=0x7f040006;
         public static final int textborder=0x7f040009;
+        public static final int textcolor=0x7f04000e;
         public static final int title=0x7f040001;
         public static final int topbar=0x7f040000;
+        public static final int white=0x7f04000d;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 

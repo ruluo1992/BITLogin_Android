@@ -43,12 +43,13 @@ public class LoginFragment extends Fragment {
 		preferences = getActivity().getSharedPreferences("conf", 0);
 		
 		//显示上次登陆成功的账号密码
-		int index = preferences.getInt("index", 0);
+		int index = preferences.getInt("index", -1);
 		List<String> users = Common.getSortedUserList(getActivity());
-		String[] parts = users.get(index).split(":");
-		username.setText(parts[0]);
-		password.setText(parts[1]);
-		
+		if(users.size() > 0){
+			String[] parts = users.get(index).split(":");
+			username.setText(parts[0]);
+			password.setText(parts[1]);			
+		}
 		//注册按钮点击事件
 		login.setOnClickListener(new View.OnClickListener() {
 			
@@ -98,6 +99,7 @@ public class LoginFragment extends Fragment {
 				if(content.startsWith("S")){
 					Editor editor = preferences.edit();
 					editor.putInt("index", msg.arg1);
+					editor.commit();
 					status.setTextColor(getResources().getColor(R.color.good));
 				}
 				else 

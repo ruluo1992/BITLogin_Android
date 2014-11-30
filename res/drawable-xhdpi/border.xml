@@ -3,6 +3,6 @@
     <!-- 背景色 -->
     
     <!-- 边框色 -->
-    <stroke android:width="0.5dip" android:color="@color/textborder" />
+    <stroke android:width="0.5dip" android:color="@color/background" />
 
 </shape>
